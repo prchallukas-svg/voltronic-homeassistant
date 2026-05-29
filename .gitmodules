@@ -1,0 +1,6 @@
+[submodule "voltronic-hidraw/common"]
+	path = voltronic-hidraw/common
+	url = ../docker-voltronic-homeassistant
+[submodule "voltronic-tty/common"]
+	path = voltronic-tty/common
+	url = ../docker-voltronic-homeassistant

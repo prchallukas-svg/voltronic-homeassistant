@@ -1,0 +1,26 @@
+name: Voltronic Inverter (Serial)
+version: "1.0.0"
+slug: voltronic_tty
+description: Monitor and control a Voltronic / MPP / Axpert inverter connected over a serial or USB-serial port (/dev/ttyUSB*, /dev/ttyS*)
+arch:
+  - amd64
+  - i386
+init: false
+host_network: true
+privileged:
+  - SYS_MODULE
+  - SYS_RAWIO
+usb: true
+uart: true
+services:
+  - mqtt:need
+options:
+  device: /dev/ttyUSB0
+  poll_interval: 30
+  amperage_factor: 1.0
+  watt_factor: 1.0
+schema:
+  device: "device(subsystem=tty)?"
+  poll_interval: "int(5,3600)"
+  amperage_factor: float
+  watt_factor: float
