@@ -114,11 +114,11 @@ views:
                   '50': '#ff0000'
                   '75': '#ffe400'
                   '100': '#00dc10'
-                entity: sensor.voltronic_battery_capacity
+                entity: sensor.voltronic_battery_soc
                 font_style:
                   font-size: 1.5em
                 gradient: true
-                name: Battery Capacity
+                name: Battery SOC
                 stroke_width: 10
                 type: 'custom:circle-sensor-card'
             type: horizontal-stack

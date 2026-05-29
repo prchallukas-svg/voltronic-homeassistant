@@ -1,5 +1,5 @@
 name: Voltronic Inverter (USB / HID)
-version: "1.1.0"
+version: "1.1.1"
 slug: voltronic_hidraw
 description: Monitor and control a Voltronic / MPP / Axpert inverter connected over USB (/dev/hidraw*)
 arch:

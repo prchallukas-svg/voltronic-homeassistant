@@ -731,7 +731,7 @@
                 {
                   "key": "entity_id",
                   "operator": "=",
-                  "value": "voltronic_battery_capacity"
+                  "value": "voltronic_battery_soc"
                 }
               ]
             }
@@ -739,7 +739,7 @@
           "thresholds": "",
           "timeFrom": null,
           "timeShift": null,
-          "title": "Battery Array Capacity",
+          "title": "Battery Array SOC",
           "transparent": false,
           "type": "singlestat",
           "valueFontSize": "80%",
